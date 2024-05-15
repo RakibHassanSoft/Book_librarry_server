@@ -13,7 +13,7 @@ const port = 5000;
 // app.use(cors())
 //settting to frontend
 app.use(cors({
-    origin:['http://localhost:5173'],
+    origin:['http://localhost:5173','https://ubiquitous-monstera-fe46e8.netlify.app'],
     credentials:true
 
 }))
